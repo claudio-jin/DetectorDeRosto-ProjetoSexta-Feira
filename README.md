@@ -37,14 +37,14 @@ Uma vez que o uso de uma API implica em enviar solicitações HTTP e receber res
 * ### Install with pip
 * | Library                                     | Install                       | Import        	    |
   | ------------------------------------------- | ----------------------------- | ------------------------- |
-  | [Requests] 				        | pip install requests          | import requests 	    |
-  | [PipWin] 				        | pip install pipwin            | ------------------------- |
-  | [Mediapipe] 				| pip install mediapipe         | import mediapipe  	    |
-  | [Pyttsx3] 				        | pip install pyttsx3           | import pyttsx3	    |
-  | [Cv2] 				        | pip install opencv-python     | import cv2 		    |
-  | [SpeechRecognition] 			| pip install SpeechRecognition | import speech_recognition |
+  | Requests 			      	        | pip install requests          | import requests 	    |
+  | PipWin 				        | pip install pipwin            |             	    	    |
+  | Mediapipe 					| pip install mediapipe         | import mediapipe  	    |
+  | Pyttsx3 				        | pip install pyttsx3           | import pyttsx3	    |
+  | Cv2 				        | pip install opencv-python     | import cv2 		    |
+  | SpeechRecognition 				| pip install SpeechRecognition | import speech_recognition |
   
 * ### Install with pipwin
-* | Library                                     | Install                       | Import       		    |
-  | ------------------------------------------- | ----------------------------- | ------------------------- |
-  | [Pyaudio] 				        | pipwin install pyaudio        | ------------------------- |
+* | Library                                     | Install                       |
+  | ------------------------------------------- | ----------------------------- |
+  | Pyaudio 				        | pipwin install pyaudio        |

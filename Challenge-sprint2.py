@@ -65,6 +65,7 @@ while True:
 
         if lista_rostos.detections:
             time.sleep(3)
+            print("Rosto reconhecido")
             break
     # Mostra a imagem capturada e os rostos
     cv2.imshow("Rostos na Webcam", frame)

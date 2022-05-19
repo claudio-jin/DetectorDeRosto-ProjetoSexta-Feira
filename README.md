@@ -33,3 +33,18 @@ Uma vez que o uso de uma API implica em enviar solicitações HTTP e receber res
 
 <h4>Objetivo: </h4>
 <p>O objetivo do algoritmo é abrir uma webcam, localizar um rosto e abrir o projeto sexta feira, um segundo algoritmo capaz de reconhecer a fala do usuário após o comando “ok sexta-feira” e abrir uma lista de comandos que o usuário pode falar.</p>
+
+* ### Install with pip
+* | Library                                     | Install                       | Import        	    |
+  | ------------------------------------------- | ----------------------------- | ------------------------- |
+  | [Requests] 				        | pip install requests          | import requests 	    |
+  | [PipWin] 				        | pip install pipwin            | ------------------------- |
+  | [Mediapipe] 				| pip install mediapipe         | import mediapipe  	    |
+  | [Pyttsx3] 				        | pip install pyttsx3           | import pyttsx3	    |
+  | [Cv2] 				        | pip install opencv-python     | import cv2 		    |
+  | [SpeechRecognition] 			| pip install SpeechRecognition | import speech_recognition |
+  
+* ### Install with pipwin
+* | Library                                     | Install                       | Import       		    |
+  | ------------------------------------------- | ----------------------------- | ------------------------- |
+  | [Pyaudio] 				        | pipwin install pyaudio        | ------------------------- |

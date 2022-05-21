@@ -1,7 +1,8 @@
 <h1>Challenge Sprint2 Dirsuptive - Detecção de rosto / Projeto Sexta-Feira</h1>
 
 <p>Turma: 2TDSH</p>
-<p>Grupo:</p>
+<p>Grupo: Polaris</p>
+<p>Integrantes: </p>
 <ul>
   <li>Daniel Augusto Y.     RM88397</li>
   <li>Guilherme Arevalo B.  RM89072</li>

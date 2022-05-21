@@ -45,7 +45,7 @@ Uma vez que o uso de uma API implica em enviar solicitações HTTP e receber res
   | Pyttsx3 				        | pip install pyttsx3           | import pyttsx3	    |
   | Cv2 				        | pip install opencv-python     | import cv2 		    |
   | SpeechRecognition 				| pip install SpeechRecognition | import speech_recognition |
-  | os						| ----------------------------- | import os / import os.path|
+  | Os						|                               | import os / import os.path|
   
   
 * ### Install with pipwin

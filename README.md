@@ -1,12 +1,13 @@
 <h1>Challenge Sprint2 Dirsuptive - Detecção de rosto / Projeto Sexta-Feira</h1>
 
+<p>Turma: 2TDSH</p>
 <p>Grupo:</p>
 <ul>
-  <li>Daniel Augusto Y. </li>
-  <li>Guilherme Arevalo B</li>
-  <li>João Henrique</li>
-  <li>Nicholas Miguel</li>
-  <li>Cláudio Jin</li>
+  <li>Daniel Augusto Y.     RM88397</li>
+  <li>Guilherme Arevalo B.  RM89072</li>
+  <li>João Henrique         RM88822</li>
+  <li>Nicholas Miguel	    RM89239</li>
+  <li>Cláudio Jin           RM88249</li>
 </ul>
 
 <h4>Bibliotecas utilizadas:</h4>

@@ -289,19 +289,19 @@ while True:
                     #Na variavel result, transformamos o valor da posicao 0 e 2 em um int
                     result = int(calcular[0]) * int(calcular[2])
                     #E entao a sextaFeira fala a String com o valor da variavel result
-                    sextaFeira.say("O resultado é: ", result)
+                    sextaFeira.say("O resultado é: {}".format(result))
                     sextaFeira.runAndWait()
                 elif calcular[1] == '+':
                     result = int(calcular[0]) + int(calcular[2])
-                    sextaFeira.say("O resultado é: ", result)
+                    sextaFeira.say("O resultado é: {}".format(result))
                     sextaFeira.runAndWait()
                 elif calcular[1] == '-':
                     result = int(calcular[0]) - int(calcular[2])
-                    sextaFeira.say("O resultado é: ", result)
+                    sextaFeira.say("O resultado é: {}".format(result))
                     sextaFeira.runAndWait()
                 else:
                     result = int(calcular[0]) / int(calcular[2])
-                    sextaFeira.say("O resultado é: ", result)
+                    sextaFeira.say("O resultado é: {}".format(result))
                     sextaFeira.runAndWait()
                 break
 
@@ -322,8 +322,6 @@ while True:
 
             #Testar a detecção de rosto
             if resp == "abrir camera" or resp == "abrir câmera":
-                sextaFeira.say("Ok mestre, veja como o senhor está bonito hoje!")
-                sextaFeira.runAndWait()
                 webcam = cv2.VideoCapture(0)
 
                 solucao_reconhecimento_rosto = mp.solutions.face_detection

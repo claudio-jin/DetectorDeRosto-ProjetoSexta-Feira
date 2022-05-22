@@ -204,19 +204,19 @@ while True:
                 calcular = frase.split()
                 if calcular[1] == 'x':
                     result = int(calcular[0]) * int(calcular[2])
-                    sextaFeira.say("O resultado é: ", result)
+                    sextaFeira.say("O resultado é: {}".format(result))
                     sextaFeira.runAndWait()
                 elif calcular[1] == '+':
                     result = int(calcular[0]) + int(calcular[2])
-                    sextaFeira.say("O resultado é: ", result)
+                    sextaFeira.say("O resultado é: {}".format(result))
                     sextaFeira.runAndWait()
                 elif calcular[1] == '-':
                     result = int(calcular[0]) - int(calcular[2])
-                    sextaFeira.say("O resultado é: ", result)
+                    sextaFeira.say("O resultado é: {}".format(result))
                     sextaFeira.runAndWait()
                 else:
                     result = int(calcular[0]) / int(calcular[2])
-                    sextaFeira.say("O resultado é: ", result)
+                    sextaFeira.say("O resultado é: {}".format(result))
                     sextaFeira.runAndWait()
                 break
 
@@ -230,6 +230,7 @@ while True:
                 sextaFeira.runAndWait()
                 break
 
+            #Abrir câmera
             if resp == "abrir camera" or resp == "abrir câmera":
                 webcam = cv2.VideoCapture(0)
 
@@ -240,7 +241,6 @@ while True:
                 desenho = mp.solutions.drawing_utils
 
                 while True:
-
                     verificador, frame = webcam.read()
 
                     if not verificador:

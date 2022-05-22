@@ -319,6 +319,39 @@ while True:
                 sextaFeira.say(clima)
                 sextaFeira.runAndWait()
                 break
+
+            #Testar a detecção de rosto
+            if resp == "abrir camera" or resp == "abrir câmera":
+                sextaFeira.say("Ok mestre, veja como o senhor está bonito hoje!")
+                sextaFeira.runAndWait()
+                webcam = cv2.VideoCapture(0)
+
+                solucao_reconhecimento_rosto = mp.solutions.face_detection
+
+                reconhecedor_de_rostos = solucao_reconhecimento_rosto.FaceDetection()
+
+                desenho = mp.solutions.drawing_utils
+
+                while True:
+
+                    verificador, frame = webcam.read()
+
+                    if not verificador:
+                        break
+                    lista_rostos = reconhecedor_de_rostos.process(frame)
+
+                    if lista_rostos.detections:
+                        for rosto in lista_rostos.detections:
+                            desenho.draw_detection(frame, rosto)
+
+                    cv2.imshow("Rostos na Webcam", frame)
+
+                    if cv2.waitKey(5) == 27:
+                        break
+
+                webcam.release()
+                cv2.destroyAllWindows()
+                break
     else:
         print("Não entendi o que voce disse")
 

@@ -61,5 +61,5 @@ Uma vez que o uso de uma API implica em enviar solicitações HTTP e receber res
 <p>- agenda.txt : Agenda.txt gerada através da função cadastrar agenda.</p>
 
 <h4>Link Youtube:</h4>
-<p>Link (Funções Comentadas 13 min): (https://youtu.be/4_BrIQMnnKY)</p>
-<p>Link (Função MediaPipe comentada 7 min): (https://youtu.be/ZRQOX7vCSg0)</p>
+<p>Link (Funções Comentadas 13 min): https://youtu.be/4_BrIQMnnKY</p>
+<p>Link (Função MediaPipe comentada 7 min): https://youtu.be/ZRQOX7vCSg0</p>

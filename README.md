@@ -55,10 +55,10 @@ Uma vez que o uso de uma API implica em enviar solicitações HTTP e receber res
 
 
 <h4> Arquivos</h4>
-- Challenge-sprint2Comentado : Arquivo python referente ao challenge sprint 2, contendo comentários de cada linha.
-- Challenge-sprinm2 : Arquivo python referente ao challenge sprint 2 sem comentários.
-- akon-sryBlameItOnMe.mp3 : Arquivo mp3 que pode ser executada na função toque uma música. A música a ser escolhida pode ser qualquer um arquivo.mp3. OBS: Para configurar o caminho da musica basta pegar o path da música em propriedades,
-- agenda.txt : Agenda.txt gerada através da função cadastrar agenda.
+<p>- Challenge-sprint2Comentado : Arquivo python referente ao challenge sprint 2, contendo comentários de cada linha.</p>
+<p>- Challenge-sprint2 : Arquivo python referente ao challenge sprint 2 sem comentários.</p>
+<p>- akon-sryBlameItOnMe.mp3 : Arquivo mp3 que pode ser executada na função toque uma música. A música a ser escolhida pode ser qualquer um arquivo.mp3. OBS: Para configurar o caminho da musica basta pegar o path da música em propriedades.</p>
+<p>- agenda.txt : Agenda.txt gerada através da função cadastrar agenda.</p>
 
 <h4>Link Youtube:</h4>
-* ###Link: 
+* Link: 
